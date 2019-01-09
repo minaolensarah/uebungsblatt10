@@ -1,7 +1,7 @@
 package immutable;
 /**
  * Eine E-Mail hat einen Sender, Empfanger, Betreff und einen Nachrichtenteil. 
- * Diese Attribute können durch set Methoden verändert und durch get Methoden ausgelesen werden.
+ * Diese Attribute kÃ¶nnen durch set Methoden verÃ¤ndert und durch get Methoden ausgelesen werden.
  * 
  * @author	Sarah Breckner 
  *			3425446 
@@ -30,7 +30,7 @@ public class Email {
 	
 	 /**
 	  * Der Sender der Email wird abgefragt
-	  * @return sender, Zeichenkette, sagt wer die Email abgeschickt hat
+	  * @return sender, sagt wer die Email abgeschickt hat
 	  * @requires Email ist initialisiert 
 	  */
 	 public String getSender() {
@@ -39,7 +39,7 @@ public class Email {
 	 }
 	 
 	 /**
-	  * Der Empfänger der Email wird abgefragt
+	  * Der EmpfÃ¤nger der Email wird abgefragt
 	  * @return empfaenger, Zeichenkette, sagt wer die Email erhalten hat
 	  * @requires Email ist initialisiert 
 	  */
@@ -78,9 +78,9 @@ public class Email {
 	 }
 	 
 	 /**
-	  * Der Empfänger der Email wird festgelegt
-	  * @param empfaenger2, wird als Empfänger der Email abgespeichert
-	  * @ensures empfaenger wird als Empfänger der Email abgespeichert
+	  * Der EmpfÃ¤nger der Email wird festgelegt
+	  * @param empfaenger2, wird als EmpfÃ¤nger der Email abgespeichert
+	  * @ensures empfaenger2 wird als EmpfÃ¤nger der Email abgespeichert
 	  */
 	 public void setEmpfaenger(final String empfaenger2) {
 		 empfaenger = empfaenger2;
